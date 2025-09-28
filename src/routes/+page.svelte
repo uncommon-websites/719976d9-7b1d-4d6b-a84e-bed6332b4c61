@@ -30,52 +30,68 @@
 />
 
 <Testimonials
+	generating={true}
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
-			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
-			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Sarah Johnson",
+			name: "Maya Chen",
 			position: "Product Manager",
-			company: "Future Systems",
+			company: "NovaCare",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"&facts saved us 6 weeks of market research for our wellness product launch. We validated our concept in 3 days instead of months, preventing a $200K investment in a concept that would have failed.",
+			image: "/generated/image-professional-headshot-of-a-confident-asi.webp"
+		},
+		{
+			name: "Marcus Williams",
+			position: "Innovation Director",
+			company: "EcoTech Solutions",
+			quote:
+				"Traditional focus groups would have cost us $50K and taken 8 weeks. &facts delivered deeper insights in minutes for a fraction of the cost, helping us pivot our sustainable packaging before wasting development resources.",
+			image: "/generated/image-professional-headshot-of-a-confident-bla.webp"
+		},
+		{
+			name: "Isabella Rodriguez",
+			position: "CEO",
+			company: "Bloom Beauty",
+			quote:
+				"Before &facts, we launched 2 products that flopped, costing us $500K. Now we validate every concept first—our last 4 launches exceeded projections by 40% because we knew exactly what customers wanted.",
+			image: "/generated/image-professional-headshot-of-a-confident-his.webp"
 		}
 	]}
 />
 
 <Features
-	title="Features"
-	subtitle="Some features"
+	title="Know what the market really wants"
+	subtitle="&facts turns billions of real-world consumer signals into instant product validation—so you can stop guessing and start growing."
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Real-world behavior, not biased opinions",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Stop relying on slow, survey-based research. Our platform analyzes actual buying behavior, search trends, and online activity to tell you what people are doing—not just what they say."
 		},
 		{
-			title: "Data Analysis",
+			title: "Answers in minutes, not weeks",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Get fully automated market validation reports in under 10 minutes. No agencies. No recruiters. No waiting."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Track what's already taking off",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Spot emerging trends, competitor traction, and untapped demand with real-time consumer signal data."
+		},
+		{
+			title: "Validate new product ideas before launch",
+			description:
+				"De-risk launches with clear evidence of real-world demand instead of relying on guesswork or expensive traditional research."
+		},
+		{
+			title: "Justify roadmaps with confidence", 
+			description:
+				"Arm your team with data that backs every decision and moves faster than competitors stuck in analysis paralysis."
+		},
+		{
+			title: "Spot gaps your competitors missed",
+			description:
+				"Identify product white space based on how consumers are behaving today, not outdated market reports from months ago."
 		}
 	]}
 />

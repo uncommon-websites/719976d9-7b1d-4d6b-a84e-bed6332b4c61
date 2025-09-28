@@ -2,5 +2,17 @@
   {
     "prompt": "A cozy café interior with wooden tables and chairs, natural light streaming through large windows, and a subtle color gradient on the wall from purple at the top to orange at the bottom, viewed straight-on. The environment feels warm and inviting, with a few people casually sitting or chatting, adding life and variety to the scene. No tech, no text, no screens, no posters, no whiteboards.",
     "filename": "/generated/image-a-cozy-caf-interior-with-wooden-tables-a.webp"
+  },
+  {
+    "prompt": "Professional headshot of a confident Asian woman product manager in a bright, modern office environment, natural lighting, soft background with subtle office elements such as plants, bookshelves, or glass walls, contemporary business attire, friendly and approachable expression, shallow depth of field for focus on subject, color palette with neutral and soft tones, photographic realism.",
+    "filename": "/generated/image-professional-headshot-of-a-confident-asi.webp"
+  },
+  {
+    "prompt": "Professional headshot of a confident Black man director wearing business casual attire in a stylish, modern office space, natural daylight, blurred background with minimalistic office decor like wooden tables, indoor greenery, or architectural details, composed and approachable demeanor, shallow depth of field, realistic photographic style, neutral and warm color tones.",
+    "filename": "/generated/image-professional-headshot-of-a-confident-bla.webp"
+  },
+  {
+    "prompt": "Professional headshot of a confident Hispanic woman CEO in a contemporary workspace, natural light, soft background featuring elegant office elements such as large windows, tasteful furniture, or decorative plants, professional attire, poised and engaging expression, focus on subject with blurred background, realistic photo quality, harmonious and muted color palette.",
+    "filename": "/generated/image-professional-headshot-of-a-confident-his.webp"
   }
 ]

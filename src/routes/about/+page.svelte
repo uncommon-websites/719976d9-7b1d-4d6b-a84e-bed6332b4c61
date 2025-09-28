@@ -11,71 +11,66 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Speed",
+			description: "Delivering market insights in minutes, not weeks, because fast decisions win."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Accuracy",
+			description: "Analyzing real consumer behavior, not survey responses, for reliable validation."
 		},
 		{
 			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			description: "Empowering product teams to make confident decisions that drive business growth."
 		}
 	];
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Decisions backed by reality"
+	subtitle="Built for fast-moving consumer brands"
+	imageSrc="/generated/image-a-professional-team-of-diverse-adults-ga.webp"
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"Product managers at fast-growing consumer brands face an impossible choice: wait weeks for traditional market research that costs thousands, or make critical product decisions based on gut feeling while competitors surge ahead. We witnessed brilliant teams with game-changing ideas held back by outdated research methods that couldn't keep pace with modern product development cycles.",
+		"That's why we built &facts to analyze billions of real-world consumer behavior signals and deliver instant market validation in minutes, not months. Instead of relying on what people say they'll do in surveys, we capture what they're actually doing across social platforms, search engines, and shopping behaviors to give product teams the reliable data they need to move fast with confidence.",
+		"Today, &facts is transforming how consumer brands validate new concepts, helping teams run 10,000+ validation reports monthly and make data-backed decisions at the speed of business. We're not just changing market research—we're enabling a new era where the best ideas win because teams can test, learn, and iterate faster than ever before."
 	]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
 	title="Our team."
-	subtitle="Your partners in innovation."
+	subtitle="Your partners in market intelligence."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
+			name: "Sohaib Ahmed",
 			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
+			bio: "Built &facts to give product teams the speed and certainty they need to win in competitive markets.",
 			image: "https://www.unc.mn/image-placeholder.svg"
 		},
 		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
+			name: "Sarah Kim",
+			position: "Head of Data Science",
+			bio: "Expert in consumer behavior analytics, transforming billions of data points into actionable insights.",
 			image: "https://www.unc.mn/image-placeholder.svg"
 		},
 		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
+			name: "Marcus Chen",
+			position: "VP of Product",
+			bio: "Former product manager who understands the validation challenges facing modern consumer brands.",
 			image: "https://www.unc.mn/image-placeholder.svg"
 		}
 	]}
 />
 
 <StakeholderGrid
-	generating
 	stakeholderType="investor"
 	title="Backed by the best."
 	subtitle="Point Nine, TSIC and others"
@@ -97,8 +92,7 @@
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Ready to move faster?"
+	subtitle="Get instant market validation"
+	description="Join the fast-growing consumer brands already using &facts to validate product concepts and make data-backed decisions in minutes, not weeks."
 />

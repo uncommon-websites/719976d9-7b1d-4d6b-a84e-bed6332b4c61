@@ -11,16 +11,16 @@
 	// Constants
 	const values = [
 		{
-			title: "Speed",
-			description: "Delivering market insights in minutes, not weeks, because fast decisions win."
+			title: "Real-time insights",
+			description: "We believe data should flow at the speed of business. While traditional research takes weeks, we deliver instant validation by analyzing billions of consumer signals in real-time."
 		},
 		{
-			title: "Accuracy",
-			description: "Analyzing real consumer behavior, not survey responses, for reliable validation."
+			title: "Behavioral truth",
+			description: "What people do matters more than what they say. We capture actual consumer behavior across platforms and channels, not hypothetical survey responses."
 		},
 		{
-			title: "Impact",
-			description: "Empowering product teams to make confident decisions that drive business growth."
+			title: "Democratized intelligence",
+			description: "Market research shouldn't be exclusive to enterprise budgets. We're making sophisticated consumer insights accessible to fast-growing brands at every stage."
 		}
 	];
 </script>
@@ -46,53 +46,22 @@
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
 	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in market intelligence."
+	title="Meet the founder."
+	subtitle="Building the future of market research."
 	stakeholders={[
 		{
 			name: "Sohaib Ahmed",
 			position: "Founder & CEO",
 			bio: "Built &facts to give product teams the speed and certainty they need to win in competitive markets.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Sarah Kim",
-			position: "Head of Data Science",
-			bio: "Expert in consumer behavior analytics, transforming billions of data points into actionable insights.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Marcus Chen",
-			position: "VP of Product",
-			bio: "Former product manager who understands the validation challenges facing modern consumer brands.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		}
-	]}
-/>
-
-<StakeholderGrid
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
+			image: "/generated/image-a-professional-headshot-of-a-business-ex.webp"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to move faster?"
+	title="Stop waiting weeks for answers"
 	subtitle="Get instant market validation"
-	description="Join the fast-growing consumer brands already using &facts to validate product concepts and make data-backed decisions in minutes, not weeks."
+	description="Join product managers at fast-growing consumer brands who trust &facts to validate concepts with real consumer behavior data. Transform your decision-making from weeks to minutes."
+	imageSrc="/generated/image-a-professional-product-manager-sits-at-a.webp"
 />

@@ -6,25 +6,30 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CenteredTextOnlyHero
+	title="Know what your customers want—instantly"
+	subtitle="Validate new product ideas in minutes using real-world behavior, not weeks of surveys or guesswork."
+	imageSrc="/generated/image-a-cozy-caf-interior-with-wooden-tables-a.webp"
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://cdn.brandfetch.io/warbyparker.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/allbirds.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/glossier.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/casper.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
-	generating
 	title="What we do"
 	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
 			name: "Jane Smith",
@@ -54,7 +59,6 @@
 />
 
 <Features
-	generating
 	title="Features"
 	subtitle="Some features"
 	features={[
@@ -75,5 +79,5 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction />
